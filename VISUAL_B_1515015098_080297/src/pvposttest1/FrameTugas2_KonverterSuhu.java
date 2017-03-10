@@ -9,12 +9,12 @@ package pvposttest1;
  *
  * @author A455L
  */
-public class FrameTugas2 extends javax.swing.JFrame {
+public class FrameTugas2_KonverterSuhu extends javax.swing.JFrame {
 
     /**
      * Creates new form KonversiSuhu
      */
-    public FrameTugas2() {
+    public FrameTugas2_KonverterSuhu() {
         initComponents();
         buttonGroup1.add(s1);
         buttonGroup1.add(s2);
@@ -384,21 +384,23 @@ public class FrameTugas2 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FrameTugas2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrameTugas2_KonverterSuhu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FrameTugas2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrameTugas2_KonverterSuhu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FrameTugas2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrameTugas2_KonverterSuhu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FrameTugas2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrameTugas2_KonverterSuhu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FrameTugas2().setVisible(true);
+                new FrameTugas2_KonverterSuhu().setVisible(true);
             }
         });
     }
