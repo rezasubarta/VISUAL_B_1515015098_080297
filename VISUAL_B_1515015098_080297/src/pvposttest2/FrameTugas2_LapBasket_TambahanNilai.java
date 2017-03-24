@@ -145,6 +145,11 @@ public class FrameTugas2_LapBasket_TambahanNilai extends javax.swing.JFrame {
 
         tarea.setColumns(20);
         tarea.setRows(5);
+        tarea.addContainerListener(new java.awt.event.ContainerAdapter() {
+            public void componentAdded(java.awt.event.ContainerEvent evt) {
+                tareaComponentAdded(evt);
+            }
+        });
         jScrollPane1.setViewportView(tarea);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -318,6 +323,10 @@ public class FrameTugas2_LapBasket_TambahanNilai extends javax.swing.JFrame {
 
 
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void tareaComponentAdded(java.awt.event.ContainerEvent evt) {//GEN-FIRST:event_tareaComponentAdded
+        tarea.setText("");
+    }//GEN-LAST:event_tareaComponentAdded
 
     /**
      * @param args the command line arguments
